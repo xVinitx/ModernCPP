@@ -1,0 +1,16 @@
+std::variant && std::visit
+
+    e.g: 2 classes employee and BusinessOwner with common behaviour PayTax
+
+    A 
+    payTax
+        --common behaviour
+
+    B 
+    payTax
+
+    
+    virtual void PayTax() = 0;
+
+
+If you want to access items stored in a variant, you must use the visit function (also called visitor pattern)

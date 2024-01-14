@@ -1,0 +1,30 @@
+Types of common logic building exercises
+
+1. Total or algebraic sum operaion
+    i- Create an initial total variable with initial as 0
+    ii- for each item to be added in the total, do the following
+        - fetch the item
+        - add the item to the sum
+        - update the sum
+    iii- return the final sum
+
+
+2. Find Min value from a collection
+    eg -find lowest (minimum) integer from an array
+    i- create an initial min which MUST be equal to the first item from the collection
+    ii- for each item in the collection, do the following 
+        - fetch the item
+        - compare item with "MIN_VALUE" so far.
+            - if current item is larger then MIN_VALUE, "ignore"
+            - if the current item is smaller, update MIN_VALUE as "current item"
+    iii- Finally, the MIN_VALUE now holds the "global minima".
+
+3. Find an attribute associated with the min value object
+    eg - finding the car with min mileage and returning this mileage
+    i- create an initial min which MUST be equal to the first item from the collection
+    ii- also save the attribute (to be returned) of the first item
+    iii- for each object, do the following
+        - compare and checkwhether current val is lower than min  
+         -> if yes, update min, update associated value
+         -> if no, ignore
+    iv- return the associated value

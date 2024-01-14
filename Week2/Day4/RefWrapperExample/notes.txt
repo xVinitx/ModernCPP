@@ -1,0 +1,49 @@
+editor & IDE
+    e.g VS Code
+    e.g NeoVim
+
+Version Control 
+    e.g Git*
+    e.g Mercurial
+
+Terminal
+    e.g : Gnome-Terminal
+    e.g : Alakritty
+    e.g : Konsole
+
+    Bonus : Session Manager : Tmux
+
+Shell:
+    e.g: bash
+    e.g: Fish
+    e.g: ZSH
+
+    Bonus : Shell customize
+
+If API has to be tested
+
+    API Client
+    e.g : POSTMAN
+    e.g : Thunder Client (VSCode Extension)
+    e.g : Curl (GNU utility)
+
+Unit Testing:
+
+    e.g : CxxTestGen Framework
+
+System Level Package Manager   
+    e.g : apt
+    e.g : dnf
+    e.g : winget
+
+
+Framework Level Package Manager
+    e.g : pip, ng, conda, etc
+
+
+
+Lambda function
+function wrapper
+reference wrapper
+std::ref
+bind

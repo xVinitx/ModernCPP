@@ -1,0 +1,51 @@
+Scenario 1: I want to create a small size, script like program to perform a simple task
+Concepts: shell script in preffered shell
+###############
+Scenario 2: I want to create a container to store fixed size of elements
+Concepts: array or std::array (to take advantage of built-in functions)
+###############
+Scenario 3: I want to store non-fixed number of elements and I don't want to block consecutive locatios in memory for the same
+Concept: std::list or your implementation of list
+###############
+Scenario 4: I want to store non-fixed number of elements in consecutive locatios in memory for the same
+Concept: std::vector or your implementation of vector
+###############
+Scenario 5: I want to create a specific model/representation of a layout of data to be used as a reference for storing instances of data
+Concepts: Classes or struct in CPP
+###############
+Scenario 6: I want the ability to create subtypes of my model type immediately or in future for each subcategory that needs to be added.
+COncept: Inheritance
+###############
+Scenario 7: I want to create an interface for an API to accept a type and all of it's subtypes as parameters to the API.
+Concept: Generalization with upcasting
+###############
+Scenario 8: I want to execute different logics for each subtype passed to the function where parameter is of generalized type.
+Concept: Function/method overriding 
+    a. Overriding with implementation only in derived classes.
+    b. Overriding with implementation in base & derived classes both.
+###############
+Scenario 9: I want to decide how basic operators will behave when used with my specific data type.
+Concept: Operator overloading
+###############
+Scenario 10: I want to convert a pointer to a base class into a pointer to a child class in such a way that if conversion fails, I get an exception AT RUN TIME
+Concept: Dynamic Casting
+###############
+Scenario 11: I want to convert a pointer to a type to some other type in such a way that if conversion fails, I can verify that at COMPILE TIME
+Concepts: Static Casting
+###############
+Scenario 12: I want to manage resources allocated based on scope of attached object's lifetime
+Concept: smart pointer
+###############
+Scenario 13: I want to decide whch special member function will be available/unavailable for a data type
+Concepts: defaulted and deleted member functions
+###############
+Scenario 14: I want to store type-erased behaviour in the form of a function in a wrapper
+Concept: std::function wrapper
+###############
+Scenario 15: I want to store a reference as a value
+Concept: std::reference_wrapper
+###############
+Scenario 16: I want to use composition but in such a way that if composed type (outer class) is instantiated, it should not take a null value of composing class (inner class)
+Concept: std::reference_wrapper for inner class
+###############
+Scenario 17: 

@@ -1,0 +1,2 @@
+Encapsulation - Hiding internal representation from outside world
+Abstraction - Hiding internal functionalities. 

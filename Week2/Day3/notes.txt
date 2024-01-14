@@ -1,0 +1,7 @@
+std::bind(magic, std::ref(n))
+
+std::thread(magic, std::ref(n))
+
+std::async(magic, std::ref(n))
+
+lambda, reference wrapper, function wrapper, bind, ref

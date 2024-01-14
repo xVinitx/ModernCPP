@@ -1,0 +1,19 @@
+find : fines & folders based on 
+    - pattern of their names
+    - time of creation or last modification
+    - based on owner (user who owns the file/folder)
+    - based on permissions
+    - type (file or folder)
+    - depth (level 0 folder, 1 lever, N level deep search)
+
+    - mix and match of all the above things
+
+find all files in week 3 folder that are cpp extension files
+
+find ~/Desktop/ModernCPP/Week3 -name "*.cpp"
+
+general linux format
+
+command-name <options> 
+
+find ../.. -user kpit -name "*.cpp" -type f -exec grep "^#include" {} \;

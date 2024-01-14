@@ -1,0 +1,54 @@
+OOP
+- represent state based on a model
+- extend, associate, compose, aggregate, generalise, and abstract behaviour and types
+- it is suitable scale projects
+
+
+Functional Programming
+- Works best when we ahve to work on data. 
+
+lambda
+map
+filter
+reduce
+closure
+Type Erasure
+Wraper
+partial Functions
+value semantics
+
+-----------------------------------------------------------------------------------------------------------------------------------
+A lambda function with nothing in the capture clause is implicitly convertible to a function pointer.
+-----------------------------------------------------------------------------------------------------------------------------------
+
+1. every object has a type
+    - functions should also have a type 
+        (signature of a function is its type)
+2. pass objects to functions as parameters
+    - functions can be passed via wrapper or function pointer to other functions
+3. return objects from functions
+    - functions can be returned via wrapper or function pointer from other functions
+4. we can obtain address of objects
+    - we can obtain address (location) of any function
+5. objects can be stored in containers
+    - function can also be stored in containers via wrappers or function pointer
+
+
+If a language has the above five functionalities, the the language is said to have first class function support
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Operating Systems
+Networking and databaases
+DSA
+
+
+
+
+
+
+
+
+
+
+

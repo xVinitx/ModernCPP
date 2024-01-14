@@ -1,0 +1,47 @@
+Easy
+
+ls
+cd
+cp
+mv
+rm
+rmdir
+mkdir
+touch
+
+-------------------------------------------------------------------------------------------------------------
+
+Moderate Difficulty
+
+ls
+top
+
+-------------------------------------------------------------------------------------------------------------
+
+High Difficulty
+
+find
+grep
+sed
+awk
+ps
+ssh
+
+-------------------------------------------------------------------------------------------------------------
+
+Parts of an Operating System
+
+1. Kernel : Software program (written in either C or Rust)
+        - heart of the OS (core of the OS)
+        - Process Scheduling, Threading & concurrency, Device Driver & its usage, Security, File Management
+
+2. Applications & Utilities
+        - GNU Utilities & other programs (pre-installed & available for install)
+3. Desktop Environment
+        - GUI visible to the user (which performs operations as demanded)
+        - e.g Gnome (current), Unity Desktop, Cosmic, KDE Plasma, etc
+4. Shell
+        - bash, zsh, fish
+5. Package Manager
+        - apt (aptitute), rpm, dmf, pacman, winget (windows), brew
+        

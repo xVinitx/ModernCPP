@@ -1,0 +1,23 @@
+Lambda can also be 
+    Predicate - returns bool.
+    Binary operation - takes 2 operands as input and performa binary operations.
+    Comparator - takes two operands and compares them and returns boolean.
+
+Lambda to be used as "Closures"
+(also known as lambda closures)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ - raw references problems
+    no storage, no memory address, cannot store in container
+    cannot pass reference by reference
+
+- how ref wrapo solve these problems    
+
+    have box. box have memory
+    ref wrap physically exist
+    ref of ref wrap. can convert to raw reference
+    do not compromise user experience
+    no star operator on reference wrapper
+    = works on ref init
+        

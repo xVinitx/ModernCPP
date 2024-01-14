@@ -1,0 +1,32 @@
+Inheritance 
+
+Types -
+    Single
+    Multilevel
+    Multiple - (Pro tip) Never use it.
+    Hierarchical
+    Hybrid
+
+Inheritance reasons
+1. Generalization - 
+    Generalize Employee, Business Owner and Pvt Company as a Tax Payer. (Is A Relationship)
+
+2. Specialization - 
+    Specialize Card as Debit, Credit or Visiting card.
+------------------------------------------------------------------------------------------------------
+
+Association |--- Basic Association
+            |--- Composition
+            |--- Aggregation
+
+Association - Two classes may be connected to each other without Inheritance or containment. 
+
+Composition - The existence of inner object depends on the outer object. If the outer object is destroyed, the iner object must also be destroyed. (Car and Engine.)
+
+Aggregation - The outer object can be destroyed by still retaining the inner object seperately. 
+            for eg- Car and Wheels. Even if the car is destroyed, the wheels can be reused. 
+                    Employee and Project. Even if Employee leaves the company, the project will still go on. 
+
+------------------------------------------------------------------------------------------------------
+Design Patterns - Object Oriented Design Patterns Book by Gang of 4.
+------------------------------------------------------------------------------------------------------

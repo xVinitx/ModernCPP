@@ -1,0 +1,70 @@
+# Developer Checklist
+
+### Proficiency in at least 3 languages
+    a. Systems programming (C, C++, Rust)
+    b. Scripting language : [Python], Lua or your preffered shell script.
+    c. Object Oriented Programming Language (Java, Kotlin, C++)
+
+### Linear Data Structures
+    a. List
+    b. Vector
+    c. Array
+    d. Hash Table implementations*
+    e. Stack and Queue (Priority Queue and Deque)
+
+### UML Diagrams
+    a. Class Diagrams
+    b. Acrivity Diagrams
+    c. Sequence Diagrams
+    d. Use Case Diagrams
+
+### Version Control 
+    ex: Git using Command line is a great option
+
+### Use of Command line
+    ex: Working with GNU utilities on a Unix/Linux Systems
+    -> GNU utilities must be mastered properly
+
+(**)### Non Linear Data Structures (Required excellent coding competency)
+    a. Tree (BST, BT, AVL, RB, N-nary tree, etc)
+    b. Graph (Cyclic and Acyclic graph, fully & partilly conected graph)
+
+(**)### Essential Algorithms
+    a. Linear Search, Binary Search, DFS, BFS, sorting algorithms(
+        a. Bubble sorting
+        b. Merge Sort
+        c. Insertion Sort
+        d. Selection Sort
+        e. Quick Sort
+        f. Radix Sort
+        g. Heap Sort
+    )
+
+(**)### Problem Solving Techniques
+    a. Brute Force Approach
+    b. Divie & Conquer
+    c. Recurssion
+    d. Dynamic Programming (involving memoization)
+    e. Backtracking
+
+### Virtualization
+    a. VMs & Hypervisors
+    b. Installing and Maintaining VM using a Hypervisor (at least throuh GUI)
+    c. Theory if Virtualization
+    d. Networking in VM^
+
+### Design Patterns
+    a. Creational
+    b. Behaviour
+    c. Structural
+
+
+
+
+
+
+
+
+
+
+

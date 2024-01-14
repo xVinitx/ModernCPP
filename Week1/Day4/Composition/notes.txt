@@ -1,0 +1,18 @@
+Book Recomendation 
+Effective Modern C++ by Scott Meyers
+-----------------------------------------------------------------------------------------------------------------------------------
+
+1. C & C++ are completely different.
+2. lValues & rValues have been revised.
+3. Pointer semantics are discouraged.
+
+    int n1 = 10;
+    ; is called Sequence Point.
+
+    lValue - something with storage attached to it and has a name given by the developer.
+    rValue - temporary things which are created during execution but have not been stored.
+
+    rvalue can get attached and saved to RAM and will no longer be temporary.
+    
+
+    

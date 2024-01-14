@@ -1,0 +1,13 @@
+'final' keyword - Any class with final keyword cannot be extended. No child class can be created of a final class.
+
+for-each loop (range-based for loop)
+    for every Pointer called ptr present in data,
+    do the following.
+
+stack and queue don't have iterators.
+
+Iterators hide the actual formula 
+Abstraction over pointers so that we can traverse over [the elements in] containers without knowing the actual formula.
+
+
+RVO - Return Value Optimization.

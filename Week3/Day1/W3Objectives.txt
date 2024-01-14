@@ -1,0 +1,39 @@
+# memory (primary memory/ RAM)
+# SoC CHIP (everything including memory on the same physical device)
+
+Objectives:
+    1. Concurrency: Ability to context switching between
+    running tasks to achieve better performance (concurrent exeute)
+
+    2. Parallelism: Doing more than one action AT THE SAME MOMENT IN TIME
+                    BASED ON HARDWARE AVAILABILITY 
+    
+    3. Learn about lock-based synchronization primitives
+        a. MUTEX
+        b. SEMAPHORE
+        c. RECURSIVE LOCKING
+        d. CONDITIONAL LOCKING
+        e. SCOPE_BASED LOCKING (BASED ON RAII PRINCIPLE)
+
+///////////////////////////////////////////////////////////////////
+
+// Introduced in CPP-17
+
+    4. Algebric data types in Modern C++
+        - Optional
+        - Variant (functional polymorphism)
+        - any
+    
+    5. Learn some behind-the-scenes optimzation techniques
+         - guaranteed copy elision
+         - constexpr
+    
+    6. if & switch initializers
+
+    7. structured binding
+
+
+Regarding systems
+
+    1. Memory (primary memory or RAM)
+    2. Processing hardware unit (intel ya AMD ya Apple silicon device)
